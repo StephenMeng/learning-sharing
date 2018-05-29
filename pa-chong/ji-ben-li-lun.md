@@ -30,9 +30,11 @@ HTTP的请求方法有8种（http1.1新增了5种），最常见的是GET和POST
 * http1.0不支持长连接，每次访问都需要重新进行TCP协议的三次握手，可以通过keep-alive参数设置。
 
 * http1.1
+
   * 默认支持长连接。
   * 节省带宽。支持只发送header信息\(不带任何body信息\)，如果服务器认为客户端有权限请求服务器，则返回100，否则返回401。客户端如果接受到100，才开始把请求body发送到服务器。
   * 支持HOST域
+
 * HTTP2.0
 
   * 多路复用。使用了多路复用的技术，做到同一个连接并发处理多个请求，而且并发请求的数量比HTTP1.1大了好几个数量级。
@@ -43,17 +45,25 @@ HTTP的请求方法有8种（http1.1新增了5种），最常见的是GET和POST
 
 #### **Websocket：**
 
+双工通信，解决只能有客户端发起请求的问题。轮询的效率低，非常浪费资源（因为必须不停连接，或者 HTTP 连接始终打开）
+
+应用场景：实时数据抓取（比如斗鱼弹幕数据）
+
 ---
 
 **参考资料：**
 
-#### [关于HTTP协议，一篇就够了](https://www.cnblogs.com/ranyonsue/p/5984001.html)
+[关于HTTP协议，一篇就够了](https://www.cnblogs.com/ranyonsue/p/5984001.html)
 
-#### [HTTP1.0 HTTP 1.1 HTTP 2.0主要区别](https://blog.csdn.net/linsongbin1/article/details/54980801)
+[HTTP1.0 HTTP 1.1 HTTP 2.0主要区别](https://blog.csdn.net/linsongbin1/article/details/54980801)
 
-#### [HTTP/2.0 相比1.0有哪些重大改进？](https://www.zhihu.com/question/34074946)
+[HTTP/2.0 相比1.0有哪些重大改进？](https://www.zhihu.com/question/34074946)
 
-#### [深入研究：HTTP2 的真正性能到底如何](https://segmentfault.com/a/1190000007219256)
+[深入研究：HTTP2 的真正性能到底如何](https://segmentfault.com/a/1190000007219256)
+
+[WebSocket 教程](http://www.ruanyifeng.com/blog/2017/05/websocket.html)
+
+[抓取斗鱼直播弹幕](https://blog.csdn.net/bfboys/article/details/52853041)
 
 
 
