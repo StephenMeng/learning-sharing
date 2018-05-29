@@ -1,6 +1,8 @@
 HTML解析
 
-HTML的解析原理就不说了，太深奥，需要了解计算机语言文法的知识，估计也晦涩难懂。只介绍一些工具。
+HTML解析就是分析得到请求数据，解析其中有用的数据的过程。
+
+HTML的解析原理就不说了，太深奥，需要了解计算机语言文法的知识，估计也晦涩难懂。在此只介绍一些工具。
 
 获取到请求结果之后，得到的文本数据通常有以下几种
 
@@ -43,6 +45,4 @@ python：SAX、DOM、ElementTree
 [Python爬虫利器二之Beautiful Soup的用法](https://cuiqingcai.com/1319.html)
 
 [正则表达式 -教程](http://www.runoob.com/regexp/regexp-tutorial.html)
-
-
 
