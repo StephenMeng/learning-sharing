@@ -1,3 +1,13 @@
-# My Awesome Book
+# 组会分享
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+## 分享目录
+
+* 就业方向
+* 编程语言选择
+* 编程实例：爬虫
+* 推荐java书籍
+* java开发知识图
+* 相关资料
+
+
+
