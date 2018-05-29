@@ -17,6 +17,10 @@ HTML格式的文件优先推荐使用工具包解析，可以根据HTML的标签
 * java：Jsoup
 * python：BeautifulSoup
 
+json在线格式化 https://www.bejson.com/
+
+
+
 ---
 
 Json格式的解析包，json只包含纯数据，现在的网站建设越来越多采用前后端分离的策略，所以这种格式的网站在未来越来越多。JSON格式的数据只包含纯数据，这类数据的解析效率最高。
