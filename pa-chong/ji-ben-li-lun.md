@@ -8,6 +8,10 @@
 
 ![](/assets/http协议.png)
 
+---
+
+## 请求行
+
 HTTP的请求方法有8种（http1.1新增了5种），最常见的是GET和POST请求。
 
 | 序号 | 方法 | 描述 |
@@ -20,6 +24,12 @@ HTTP的请求方法有8种（http1.1新增了5种），最常见的是GET和POST
 | 6 | CONNECT | HTTP/1.1协议中预留给能够将连接改为管道方式的代理服务器。 |
 | 7 | OPTIONS | 允许客户端查看服务器的性能。 |
 | 8 | TRACE | 回显服务器收到的请求，主要用于测试或诊断。常用的主要有两种get和post两种 |
+
+---
+
+#### 请求头信息
+
+![](/assets/详情.jpg)
 
 ---
 
@@ -55,6 +65,8 @@ HTTP的请求方法有8种（http1.1新增了5种），最常见的是GET和POST
 
 [关于HTTP协议，一篇就够了](https://www.cnblogs.com/ranyonsue/p/5984001.html)
 
+[HTTP请求行、请求头、请求体详解](https://blog.csdn.net/u010256388/article/details/68491509)
+
 [HTTP1.0 HTTP 1.1 HTTP 2.0主要区别](https://blog.csdn.net/linsongbin1/article/details/54980801)
 
 [HTTP/2.0 相比1.0有哪些重大改进？](https://www.zhihu.com/question/34074946)
@@ -64,6 +76,4 @@ HTTP的请求方法有8种（http1.1新增了5种），最常见的是GET和POST
 [WebSocket 教程](http://www.ruanyifeng.com/blog/2017/05/websocket.html)
 
 [抓取斗鱼直播弹幕](https://blog.csdn.net/bfboys/article/details/52853041)
-
-
 
